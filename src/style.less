@@ -1,0 +1,103 @@
+button{
+    display: block;
+    background-color: #ff851f;
+    color: #fff;
+    font-size: .9rem;
+    margin: auto;
+    font-weight: 700;
+    border: 1px solid #e56800;
+    box-shadow: 0 1px 0 rgba(255,255,255,.25) inset;
+    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.25) inset;
+    padding: .75rem 1rem;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #eb6b00;
+}
+.radius{
+    -webkit-border-radius: 3px; 
+    border-radius: 3px; 
+}
+.row {
+    margin: auto;
+    position: fixed;
+    top: 40%;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+  max-width: 650px;
+  line-height: 1.6;
+  font-size: 18px;
+  color: #444;
+  padding: 0 10px
+}
+
+.is-hidden {
+  display: none;
+}
+
+.button-close {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 9999
+}
+
+.modal {
+  padding: 20px 30px;
+  width: 50%;
+  max-height: calc(100% - 150px);
+  position: relative;
+  min-height: 60%;
+  margin: 5% auto 0;
+  background: #fff;
+  z-index: 9999;
+}
+.left{
+    float: left;            
+    width: 48%;
+}
+
+.right{
+    float: right;
+    width: 48%;
+}
+input, select {
+    width: 100%;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+select{
+    padding: 12px 8px;
+}
+input{
+    padding: 12px 20px;
+}
+img{
+    padding-top: 10px;
+    height: 68%;
+    width: 100%;
+}
+button#submitBtn{
+    margin: auto;
+    margin-top: 4%;    
+}
